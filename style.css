@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Lora:100,300,400);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400);
+
+fieldset {
+  border: none;
+}
+*{
+  box-sizing: border-box;
+  font-family: 'Lato', 'Helvetica', sans-serif;
+  color: grey;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+#fill {
+  width: 30%;
+  margin: auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-family: 'Lato';
+  border-style: none;
+}
+h1 {
+  font-family: 'Lora', Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+#info input, select {
+  display: block;
+  width: 100%;
+  background: transparent;
+  padding: 20px 20px;
+  font-size: .8em;
+}
+#info input:focus, textarea:focus {
+  background: rgb(255, 244, 244);
+  border-color: pink;
+  outline-color: pink;
+  transition: all .3s ease-in-out;
+}
+textarea {
+  width: 99.5%;
+  max-width: 99.5%;
+  height: 150px;
+  max-height: 150px;
+  display: block;
+  background: transparent;
+  padding: 20px 20px;
+  font-size: .8em;
+}
+#how {
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+label {
+  margin-right: 20px;
+  font-size: .8em;
+}
+#style {
+  margin-bottom: 50px;
+}
+input[type="button"]{
+  background: transparent;
+  width: 100%;
+  padding: 20px 20px;
+  outline: none;
+}
+input:hover[type="button"]{
+  background: rgb(255, 244, 244);
+  border-color: pink;
+  outline-color: pink;
+  transition: all .5s ease-in-out;
+}
+select:hover, select option:hover, select:focus {
+  border-color: pink;
+  outline-color: pink;
+}
